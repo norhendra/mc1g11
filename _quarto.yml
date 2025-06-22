@@ -20,5 +20,7 @@ website:
 
 format:
   html:
-    theme: cosmo              # any Bootstrap theme; we’ll override colors
-    css: styles.css
+    theme: cosmo          # (or whatever you already have)
+    css:  styles.css
+    include-in-header: "_includes/loader.html"   # <= NEW
+    page-layout: full

@@ -60,3 +60,21 @@ a:hover { color: #1ed760; }
 /* Tables / gt / fig captions ------------------------------- */
 table, th, td  { color: var(--text-light); }
 .caption { color: #b3b3b3; }
+
+/* ── Spotify-green “Let’s Connect!” button ───────────────────── */
+.btn-spotify {
+  display:inline-block;
+  padding:.5rem 1rem;
+  background:#1DB954;          /* Spotify green  */
+  color:#fff;
+  font-weight:600;
+  border-radius:4px;
+  text-decoration:none;
+  transition:background .2s;
+}
+
+.btn-spotify:hover {
+  background:#1ed760;          /* lighter on hover */
+  color:#fff;
+}
+

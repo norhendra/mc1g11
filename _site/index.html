@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – Echoes of Oceanus</title>
+<title>Echoes of Oceanus Folk – Echoes of Oceanus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,12 +66,50 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+/* Full-page overlay */
+#page-loader {
+  position: fixed;
+  inset: 0;                        /* top:0; right:0; bottom:0; left:0; */
+  z-index: 2000;                   /* above everything */
+  background: #121212;             /* match your dark bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s ease;   /* fade-out */
+}
+
+/* Simple spinner */
+#page-loader .spinner {
+  width: 52px;
+  height: 52px;
+  border: 6px solid rgba(255,255,255,0.15);
+  border-top-color: #1DB954;       /* Spotify green */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
+</head><body class="nav-fixed"><div id="page-loader">
+  <div class="spinner"></div>
+</div>
+
+<script>
+// Hide loader when everything on the page has finished loading
+window.addEventListener('load', function () {
+  const loader = document.getElementById('page-loader');
+  loader.style.opacity = '0';
+  setTimeout(() => loader.remove(), 400);   // allow CSS fade-out
+});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
-</head>
 
-<body class="nav-fixed fullcontent">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -104,21 +142,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Home</h1>
+<h1 class="title">Echoes of Oceanus Folk</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -130,13 +168,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-echoes-of-oceanus" class="level1">
-<h1>Welcome to Echoes of Oceanus 🎧</h1>
 <blockquote class="blockquote">
 <p><em><strong>“Where words fail, music speaks.”</strong> — Ludwig van Beethoven</em>&nbsp;</p>
 </blockquote>
 <div class="hero">
-<h2 class="anchored" data-anchor-id="welcome-to-echoes-of-oceanus">
+<h2 class="anchored">
 Discover the tides of Oceanus Folk
 </h2>
 <p>
@@ -144,6 +180,57 @@ Interactive visualizations, influence graphs,<br>and curated playlists — all i
 </p>
 <p><a class="cta" href="https://norhendra-isss608.shinyapps.io/echoesofoceanus/" target="_blank" rel="noopener"> Shiny App </a></p>
 </div>
+<section id="our-team" class="level1">
+<h1>Our Team</h1>
+<!-- Wide, non-wrapping row that scrolls horizontally on phones -->
+<div style="
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;          /* never wrap = always one row            */
+  gap:32px;
+  justify-content:center;    /* centre on big screens                  */
+  overflow-x:auto;           /* allow sideways scroll if screen < 880px */
+  padding-bottom:8px;        /* little space below the scrollbar line  */
+">
+
+  <!-- Card 1 -->
+  <div style="min-width:260px;border:1px solid #333;border-radius:6px;overflow:hidden">
+    <img src="images/team/andreong.jpeg" style="width:100%;height:auto" alt="Andre Ong">
+    <div style="padding:1rem">
+      <h5 style="margin:0 0 .5rem;font-weight:700" class="anchored" data-anchor-id="our-team">Andre Ong</h5>
+      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Andre …</p>
+      <a href="https://www.linkedin.com/in/andre-ong-5903b5215/" target="_blank" rel="noopener" class="btn-spotify">
+        Let’s Connect!
+      </a>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div style="min-width:260px;border:1px solid #333;border-radius:6px;overflow:hidden">
+    <img src="images/team/norhendra.jpeg" style="width:100%;height:auto" alt="Nor Hendra">
+    <div style="padding:1rem">
+      <h5 style="margin:0 0 .5rem;font-weight:700" class="anchored">Nor Hendra</h5>
+      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Nor …</p>
+      <a href="https://www.linkedin.com/in/norhendra/" target="_blank" rel="noopener" class="btn-spotify">
+        Let’s Connect!
+      </a>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div style="min-width:260px;border:1px solid #333;border-radius:6px;overflow:hidden">
+    <img src="images/team/ngjinyao.jpeg" style="width:100%;height:auto" alt="Ng Jin Yao">
+    <div style="padding:1rem">
+      <h5 style="margin:0 0 .5rem;font-weight:700" class="anchored">Ng Jin Yao</h5>
+      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Jin Yao …</p>
+      <a href="https://www.linkedin.com/in/ngjinyao/" target="_blank" rel="noopener" class="btn-spotify">
+        Let’s Connect!
+      </a>
+    </div>
+  </div>
+
+</div>
+
 
 
 </section>

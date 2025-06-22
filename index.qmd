@@ -1,9 +1,6 @@
 ---
-title: "Home"
+title: "Echoes of Oceanus Folk"
 ---
-
-# Welcome to Echoes of Oceanus 🎧
-
 > ***"Where words fail, music speaks."** — Ludwig van Beethoven* 
 
 ::: hero
@@ -15,3 +12,64 @@ title: "Home"
    href="https://norhendra-isss608.shinyapps.io/echoesofoceanus/"
    target="_blank" rel="noopener"> Shiny App </a>
 :::
+
+# Our Team
+
+```{=html}
+<!-- Wide, non-wrapping row that scrolls horizontally on phones -->
+<div style="
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;          /* never wrap = always one row            */
+  gap:32px;
+  justify-content:center;    /* centre on big screens                  */
+  overflow-x:auto;           /* allow sideways scroll if screen < 880px */
+  padding-bottom:8px;        /* little space below the scrollbar line  */
+">
+
+  <!-- Card 1 -->
+  <div style="min-width:260px;border:1px solid #333;border-radius:6px;overflow:hidden">
+    <img src="images/team/andreong.jpeg" style="width:100%;height:auto" alt="Andre Ong">
+    <div style="padding:1rem">
+      <h5 style="margin:0 0 .5rem;font-weight:700">Andre Ong</h5>
+      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Andre …</p>
+      <a href="https://www.linkedin.com/in/andre-ong-5903b5215/"
+         target="_blank" rel="noopener" class="btn-spotify">
+        Let’s Connect!
+      </a>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div style="min-width:260px;border:1px solid #333;border-radius:6px;overflow:hidden">
+    <img src="images/team/norhendra.jpeg" style="width:100%;height:auto" alt="Nor Hendra">
+    <div style="padding:1rem">
+      <h5 style="margin:0 0 .5rem;font-weight:700">Nor Hendra</h5>
+      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Nor …</p>
+      <a href="https://www.linkedin.com/in/norhendra/"
+         target="_blank" rel="noopener" class="btn-spotify">
+        Let’s Connect!
+      </a>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div style="min-width:260px;border:1px solid #333;border-radius:6px;overflow:hidden">
+    <img src="images/team/ngjinyao.jpeg" style="width:100%;height:auto" alt="Ng Jin Yao">
+    <div style="padding:1rem">
+      <h5 style="margin:0 0 .5rem;font-weight:700">Ng Jin Yao</h5>
+      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Jin Yao …</p>
+      <a href="https://www.linkedin.com/in/ngjinyao/"
+         target="_blank" rel="noopener" class="btn-spotify">
+        Let’s Connect!
+      </a>
+    </div>
+  </div>
+
+</div>
+
+```
+
+
+
+

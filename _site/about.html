@@ -100,12 +100,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<style>
+/* Full-page overlay */
+#page-loader {
+  position: fixed;
+  inset: 0;                        /* top:0; right:0; bottom:0; left:0; */
+  z-index: 2000;                   /* above everything */
+  background: #121212;             /* match your dark bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s ease;   /* fade-out */
+}
+
+/* Simple spinner */
+#page-loader .spinner {
+  width: 52px;
+  height: 52px;
+  border: 6px solid rgba(255,255,255,0.15);
+  border-top-color: #1DB954;       /* Spotify green */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
+</head><body class="nav-fixed"><div id="page-loader">
+  <div class="spinner"></div>
+</div>
+
+<script>
+// Hide loader when everything on the page has finished loading
+window.addEventListener('load', function () {
+  const loader = document.getElementById('page-loader');
+  loader.style.opacity = '0';
+  setTimeout(() => loader.remove(), 400);   // allow CSS fade-out
+});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
-</head>
 
-<body class="nav-fixed fullcontent">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -138,12 +176,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -152,7 +190,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
