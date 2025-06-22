@@ -9,11 +9,13 @@ website:
   navbar:
     background: "#1DB954"        # Spotify green
     foreground: "white"
-    left:
+    right:
       - text: "Home"
         href: index.qmd
-      - text: "About"
-        href: about.qmd
+      - text: "Meeting Minutes"
+        menu:
+          - text: "Meeting Minutes 1"
+            href: "meetingminutes/meetingminutes1.html"
   page-footer:
     center: |
       © {{< year >}} Echoes of Oceanus · Inspired by Spotify
@@ -24,3 +26,4 @@ format:
     css:  styles.css
     include-in-header: "_includes/loader.html"   # <= NEW
     page-layout: full
+      

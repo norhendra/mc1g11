@@ -14,17 +14,31 @@
     "text": "“Where words fail, music speaks.” — Ludwig van Beethoven \n\n\n\nDiscover the tides of Oceanus Folk\n\n\nInteractive visualizations, influence graphs,and curated playlists — all in one place.\n\n Shiny App \n\n\nOur Team\n\n\n\n  \n  \n    \n    \n      Andre Ong\n      Short bio for Andre …\n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Nor Hendra\n      Short bio for Nor …\n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Ng Jin Yao\n      Short bio for Jin Yao …\n      \n        Let’s Connect!"
   },
   {
-    "objectID": "index.html#our-team-1",
-    "href": "index.html#our-team-1",
-    "title": "Home",
-    "section": "Our Team",
-    "text": "Our Team"
+    "objectID": "meetingminutes/meetingminutes1.html",
+    "href": "meetingminutes/meetingminutes1.html",
+    "title": "Meeting Minutes 1",
+    "section": "",
+    "text": "Date: 21 June 2025\nTime: 1700hrs to 1830hrs\nIn Attendance: Andre Ong, Ng Jin Yao, Nor Hendra Bin Abdul Rahman\nOpening:\nThe meeting was called to order at 1700hrs by the group in SMU."
   },
   {
-    "objectID": "index.html#our-team-2",
-    "href": "index.html#our-team-2",
-    "title": "Home",
-    "section": "Our Team",
-    "text": "Our Team\n\n\n  \n    \n    \n      Andre Ong\n      \n        Short bio for Andre …\n      \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n    \n    \n      Nor Hendra\n      \n        Short bio for Nor …\n      \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n    \n    \n      Ng Jin Yao\n      \n        Short bio for Jin Yao …\n      \n      \n        Let’s Connect!"
+    "objectID": "meetingminutes/meetingminutes1.html#agenda-item-1-module-selection",
+    "href": "meetingminutes/meetingminutes1.html#agenda-item-1-module-selection",
+    "title": "Meeting Minutes 1",
+    "section": "Agenda Item 1: Module Selection",
+    "text": "Agenda Item 1: Module Selection\nPrior to the first meeting, the team had an informal discussion on 17 January 2025 and agreed to come together and finalise what modules we are working on. We discussed our ideas from Take-home Exercise 3.\nJin Yao shared that we can have a module called ‘Influence Network Explorer’ where the central node can be change to any artist. The goal of this module is to answer question 1 and question 3 influences of Sailor Shift and other artistes.\nAndre has also highlighted what he would be exploring for question 3 by having a top artist visNetwork and accompany it with a bar chart to show the top artists/songs.\nHendra also shared that for Oceanus Folk, we would only need “inward” and “outward” influences to answer question 2. This should be accompanied with an interactive plotly to which genres has the most influence count. A timeline should be added to see how the influences has affected throughout the years.\nTo conclude this agenda, we will be splitting it to 3 modules to answer each question, and they are ‘Sailor Shift’, ‘Oceanus Folk’, and ‘Other Artists’. However, we remain open to adjustments as new insights emerge."
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes1.html#agenda-item-2-ui-design",
+    "href": "meetingminutes/meetingminutes1.html#agenda-item-2-ui-design",
+    "title": "Meeting Minutes 1",
+    "section": "Agenda Item 2: UI Design",
+    "text": "Agenda Item 2: UI Design\nAfter exploring several layout options, the team unanimously endorsed Hendra’s Spotify-inspired design from Take-home Exercise 3. His clean, familiar interface will not only showcase our visualizations but also set the perfect stage for an immersive audio experience.\nTo bring the fictitious genre of Oceanus Folk to life, Hendra proposed curating a sample playlist that captures its imagined soundscape. By embedding audio clips directly into our Shiny App, users will be able to toggle between tracks as they explore influence networks and timelines—deepening their connection to the music and the story behind it.\nBuilding on that idea, Jin Yao and Andre each contributed a hand-picked selection of songs whose textures and melodies evoke Oceanus Folk’s ethos. Together, their contributions will form a dynamic, exploratory playlist—so listeners can not only see how Oceanus Folk fits into the broader musical landscape but also hear its spirit firsthand.\nThe team unanimously decided on the project topic of “Global Terrorism” after considering all the different proposed ideas, as the “Global Terrorism” dataset has a comprehensive list of variables that can be worked on to explore the different visualisation techniques and methods learnt from the course. In addition, it also fulfilled the requirement of using open-source government data to build a web-enabled interactive visual analytics application."
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes1.html#agenda-item-3-agile-practices-and-project-timeline",
+    "href": "meetingminutes/meetingminutes1.html#agenda-item-3-agile-practices-and-project-timeline",
+    "title": "Meeting Minutes 1",
+    "section": "Agenda Item 3: Agile Practices and Project Timeline",
+    "text": "Agenda Item 3: Agile Practices and Project Timeline\nDuring the session we agreed on a streamlined workflow to keep our Shiny App development both transparent and resilient:\n\nCentralized Codebase: All code now lives in a single GitHub repository https://github.com/norhendra/mc1_backseatbois - so everyone works from the same source of truth.\nLightweight SOP\n\nWhenever anyone pushes new commits, they’ll send a quick notification in our chat so the rest of the team can pull the latest changes immediately.\nAndre recommended maintaining local backups of stable code branches, enabling us to roll back easily if something breaks.\nJin Yao stressed the importance of clear, descriptive commit messages that spell out exactly what was added, removed, or refactored.\n\nSprint-Based Task Management\n\nHendra proposed and we all agreed to treat our two-week window as a formal sprint in Jira. We’ve since:\n\nCreated a Jira board.\nGenerated tickets that align with our module selection and UI design.\nAssigned each of us to specific tasks.\nAdopted the “3 C’s” framework—Card, Conversation, Confirmation—to track every story from planning through completion.\n\nBy combining a centralized repo, a clear notification process, and a sprint mindset in Jira, we’ll ensure smooth collaboration, rapid iteration, and full visibility into our progress.Follow-up on Agenda Item 3: Sprint Setup on JIRA\nhttps://nhendra.atlassian.net/jira/software/projects/MC1BB/boards/2\n\n\nFor Create UI for Shiny App:\n\nFor Sailor Shift Module\n\nFor Oceanus Folk Moduke\n\nFor Other Artists Module"
   }
 ]

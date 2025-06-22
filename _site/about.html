@@ -159,15 +159,26 @@ window.addEventListener('load', function () {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-meeting-minutes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Meeting Minutes</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-meeting-minutes">    
+        <li>
+    <a class="dropdown-item" href="./meetingminutes/meetingminutes1.html">
+ <span class="dropdown-text">Meeting Minutes 1</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./meetingminutes/meetingminutes2.html">
+ <span class="dropdown-text">Meeting Minutes 2</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">

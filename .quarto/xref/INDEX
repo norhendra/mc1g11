@@ -4,5 +4,11 @@
   },
   "about.qmd": {
     "about.html": "ffc44555"
+  },
+  "meetingminutes/meetingminutes1.qmd": {
+    "meetingminutes1.html": "a3adda6e"
+  },
+  "meetingminutes/meetingminutes2.qmd": {
+    "meetingminutes2.html": "92f9d390"
   }
 }
