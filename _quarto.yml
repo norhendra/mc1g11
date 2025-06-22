@@ -1,19 +1,24 @@
 project:
   type: website
+  output-dir: _site      # keep if you’re pushing the built site
+  preview:               # live-reload while editing
+    port: 4200
 
 website:
-  title: "mc1g11"
+  title: "Echoes of Oceanus"
   navbar:
+    background: "#1DB954"        # Spotify green
+    foreground: "white"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+  page-footer:
+    center: |
+      © {{< year >}} Echoes of Oceanus · Inspired by Spotify
 
 format:
   html:
-    theme: cosmo
+    theme: cosmo              # any Bootstrap theme; we’ll override colors
     css: styles.css
-    toc: true
-
-editor: visual
-

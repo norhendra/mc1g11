@@ -1,1 +1,62 @@
-/* css styles */
+/* ---------- Spotify-inspired palette ---------- */
+:root {
+  --spotify-green: #1db954;
+  --spotify-black: #121212;
+  --spotify-gray:  #181818;
+  --text-light:    #ffffff;
+}
+
+/* Global ----------------------------------------------------- */
+body {
+  background-color: var(--spotify-black);
+  color: var(--text-light);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a       { color: var(--spotify-green); }
+a:hover { color: #1ed760; }
+
+/* Navbar ----------------------------------------------------- */
+.navbar,
+.navbar-dark,
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--text-light) !important;
+  font-weight: 600;          /* <-- add this line (bold) */
+}
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+
+/* Hero section on home page ---------------------------------- */
+.hero {
+  background: var(--spotify-gray);
+  border-radius: 12px;
+  padding: 3rem;
+
+  /* Center the whole hero card */
+  margin: 2rem auto;      /* top–bottom 2 rem, left–right auto */
+  max-width: 900px;       /* keep it from stretching edge-to-edge */
+
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: var(--spotify-green);
+  color: var(--text-light);
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Tables / gt / fig captions ------------------------------- */
+table, th, td  { color: var(--text-light); }
+.caption { color: #b3b3b3; }

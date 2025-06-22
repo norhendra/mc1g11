@@ -1,11 +1,17 @@
 ---
-title: "test g112"
+title: "Home"
 ---
 
-This is a Quarto website.
+# Welcome to Echoes of Oceanus 🎧
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+> ***"Where words fail, music speaks."** — Ludwig van Beethoven* 
 
-```{r}
-1 + 1
-```
+::: hero
+<h2>Discover the tides of Oceanus Folk</h2>
+
+<p>Interactive visualizations, influence graphs,<br>and curated playlists — all in one place.</p>
+
+<a class="cta"
+   href="https://norhendra-isss608.shinyapps.io/echoesofoceanus/"
+   target="_blank" rel="noopener"> Shiny App </a>
+:::
