@@ -13,12 +13,9 @@ format:
 
 website:
   navbar:
-    # hide the text title
     title: ""
-    # your banner image
     logo: images/oceanustv.png
     logo-alt: "Echoes of Oceanus"
-    # what clicking the logo should link to
     logo-href: "/"
     background: "#1DB954"       
     foreground: white
@@ -26,6 +23,18 @@ website:
     right:
       - text: Home
         href: index.qmd
+      - text: Shiny App
+        href: https://norhendra-isss608.shinyapps.io/oceanustv/
+      - text: Poster
+        href: poster/poster.html
+      - text: Proposal
+        menu:
+          - text: Hendra's
+            href: https://norhendra-isss608.netlify.app/take-home_ex/take-home_ex03/take-home_ex03
+          - text: Andre's
+            href: https://isss608-ay2025-aprilterm.netlify.app/take-home_ex/take-home_ex03/take-home_ex03
+          - text: Jin Yao's
+            href: https://isss608-blessmebellburve.netlify.app/take-home_ex/take-home_ex03/take-home_ex03        
       - text: Meeting Minutes
         menu:
           - text: Meeting Minutes 1

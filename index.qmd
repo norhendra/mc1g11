@@ -1,14 +1,14 @@
 
 <div style="text-align:center; margin:2rem 0;">
   <img 
-    src="images/otv2banner.png" 
+    src="images/otvbanner.png" 
     alt="Oceanus TV banner" 
     style="width:50%; max-width:600px; display:inline-block;"
   />
 </div>
 
 ::: hero
-<h2>Discover the tides of Oceanus Folk</h2>
+<h2 style="text-align: center;">Discover the tides of Oceanus Folk</h2>
 
 <p>Interactive visualizations, influence graphs,<br>and curated playlists — all in one place.</p>
 
