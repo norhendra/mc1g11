@@ -25,6 +25,8 @@ website:
         href: index.qmd
       - text: Shiny App
         href: https://norhendra-isss608.shinyapps.io/oceanustv/
+      - text: User Guide
+        href: userguide/userguide.html
       - text: Poster
         href: poster/poster.html
       - text: Proposal
