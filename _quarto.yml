@@ -1,29 +1,36 @@
 project:
   type: website
-  output-dir: _site      # keep if you’re pushing the built site
-  preview:               # live-reload while editing
+  output-dir: _site      
+  preview:               
     port: 4200
-
-website:
-  title: "Echoes of Oceanus"
-  navbar:
-    background: "#1DB954"        # Spotify green
-    foreground: "white"
-    right:
-      - text: "Home"
-        href: index.qmd
-      - text: "Meeting Minutes"
-        menu:
-          - text: "Meeting Minutes 1"
-            href: "meetingminutes/meetingminutes1.html"
-  page-footer:
-    center: |
-      © {{< year >}} Echoes of Oceanus · Inspired by Spotify
 
 format:
   html:
-    theme: cosmo          # (or whatever you already have)
-    css:  styles.css
-    include-in-header: "_includes/loader.html"   # <= NEW
+    theme: cosmo          
+    css: styles.css
+    include-in-header: "_includes/loader.html"   
     page-layout: full
-      
+
+website:
+  navbar:
+    # hide the text title
+    title: ""
+    # your banner image
+    logo: images/oceanustv.png
+    logo-alt: "Echoes of Oceanus"
+    # what clicking the logo should link to
+    logo-href: "/"
+    background: "#1DB954"       
+    foreground: white
+
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Meeting Minutes
+        menu:
+          - text: Meeting Minutes 1
+            href: meetingminutes/meetingminutes1.html
+
+  page-footer:
+    center: |
+      © {{ 2025 }} OceanusTV · A data visualisation project

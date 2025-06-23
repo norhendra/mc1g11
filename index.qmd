@@ -1,7 +1,11 @@
----
-title: "Echoes of Oceanus Folk"
----
-> ***"Where words fail, music speaks."** — Ludwig van Beethoven* 
+
+<div style="text-align:center; margin:2rem 0;">
+  <img 
+    src="images/otv2banner.png" 
+    alt="Oceanus TV banner" 
+    style="width:50%; max-width:600px; display:inline-block;"
+  />
+</div>
 
 ::: hero
 <h2>Discover the tides of Oceanus Folk</h2>
@@ -9,7 +13,7 @@ title: "Echoes of Oceanus Folk"
 <p>Interactive visualizations, influence graphs,<br>and curated playlists — all in one place.</p>
 
 <a class="cta"
-   href="https://norhendra-isss608.shinyapps.io/echoesofoceanus/"
+   href="https://norhendra-isss608.shinyapps.io/oceanustv/"
    target="_blank" rel="noopener"> Shiny App </a>
 :::
 

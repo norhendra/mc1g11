@@ -78,3 +78,30 @@ table, th, td  { color: var(--text-light); }
   color:#fff;
 }
 
+/* ── Big, Bold Navbar Logo Override ───────────────────────────────── */
+
+/* 1) Target any <img> inside a .navbar-brand link */
+.navbar-brand img,
+nav.navbar a.navbar-brand img,
+nav.quarto-navbar a.navbar-brand img {
+  /* Force your desired height */
+  max-height: 4rem !important;
+  height: auto    !important;
+  width: auto     !important;
+}
+
+/* 2) Also target by alt-text just in case */
+img[alt="Echoes of Oceanus"] {
+  max-height: 4rem !important;
+  height: auto     !important;
+  width: auto      !important;
+}
+
+/* 3) Remove any container caps */
+.navbar-brand,
+nav.navbar .navbar-brand,
+nav.quarto-navbar .navbar-brand {
+  max-height: none   !important;
+  padding: 0         !important;
+}
+
