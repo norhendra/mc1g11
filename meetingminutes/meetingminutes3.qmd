@@ -1,0 +1,38 @@
+---
+title: "Meeting Minutes 3"
+date: "26 June 2025"
+format: html
+editor: visual
+---
+
+# Group 11: Meeting Minutes 3
+
+Date: 26 June 2025
+
+Time: 2200hrs to 2230hrs
+
+In Attendance: Andre Ong, Ng Jin Yao, Nor Hendra Bin Abdul Rahman
+
+**Opening:**
+
+The meeting was called to order at 2200hrs by the group as an online discussion
+
+# Agenda Items
+
+1.  Minor Updates
+
+## Agenda Item 1: Minor Updates
+
+Andre called upon for a quick online discussion. He showed us the finalized plots and the team has agreed on below modules.
+
+The finalized modules are as follows:
+
+1.  **Artist Influence Explorer**: An adjustable visNetwork with a central node to select between person or musical groups, and show its influence where it can be both 'influenced by' and 'influenced from'
+2.  **Oceanus Folk:** A pair of visNetwork and plotly where we can select between 'influenced by' and 'influenced from' to explore how Oceanus Folk impacts other genres
+3.  **Solo Spotlight:** Module to show top artist based on their song notability
+4.  **Group Spotlight:** Module to show top bands based on their song notability, and also show within a group how each person risen to popularity.
+5.  **Upcoming Acts:** To show which artists are upcoming
+
+## Follow-up:
+
+Hendra to work on UI to showcase the new tabs, Jin Yao and Andre to integrate the plots into ShinyApp.
