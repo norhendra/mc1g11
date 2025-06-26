@@ -1,5 +1,52 @@
 ---
-title: "meetingminutes2"
+title: "Meeting Minutes 2"
+date: "26 June 2025"
 format: html
+editor: visual
 ---
 
+# Group 11: Meeting Minutes 2
+
+Date: 25 June 2025
+
+Time: 2130hrs to 2230hrs
+
+In Attendance: Andre Ong, Ng Jin Yao, Nor Hendra Bin Abdul Rahman
+
+**Opening:**
+
+The meeting was called to order at 2130hrs by the group in SMU.
+
+# Agenda Items
+
+1.  Progress Report
+2.  Finalize on modules
+3.  Discussion on next steps
+
+## Agenda Item 1: Progress Report
+
+![](images/clipboard-3922384589.png)
+
+Hendra updated the team that the UI has been done according to the confirmation tasks set for the story. Hendra updated that only 3 songs will be used to keep the Shiny App light to not overload the Shiny with the songs. The team was also updated to check on a few things when pulling for Git and they are:
+
+1.  Ensure that songs are playing and play/pause button displaying as expected even when cycling through the tabs.
+2.  Ensure the able to click 'Next' and songs auto-play.
+3.  Ensure that summary tab on the right taskbar stays as what was previously selected when cycling through the tabs.
+
+![](images/clipboard-2799023112.png)
+
+The sprint burn-down chart shows that the work is only 29% done. However, both Andre and Jin Yao showed great progress in their assigned stories. However, to keep within schedule the team agrees that we should speed things up.
+
+## Agenda Item 2: Finalize on Modules
+
+During the meeting, Jin Yao presented the team his idea of having a central node that can be selected to any artist. This serves to the question Andre was trying to answer as well. Hence, the team agreed that we need to change how we think to go about the module names.
+
+Jin Yao also shared how he was able to link the inward influence and plotly, along with outward influence and plotly. This serves to answer question 2 of MC1.
+
+Andre also shared his progress in showing betweenness of songs and genres. He is also suggesting that we have a fourth module to show the notable songs to answer question 3 of MC1.
+
+## Agenda Item 3: Next Steps
+
+1.  The team agreed that we would have to brainstorm and finalize with new names for our modules based of Jin Yao's revised visualization artist influence.
+2.  Development is currently being done on a separate simplified Shiny app, with plans to integrate it into the main UI once finalized.
+3.  Hendra will be working on the poster while Jin Yao and Andre continue integrating their visualizations to the new UI.

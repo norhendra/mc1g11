@@ -1,9 +1,16 @@
+---
+title: "Oceanus TV"
+format:
+  html:
+    title-block: false
+---
+
 
 <div style="text-align:center; margin:2rem 0;">
   <img 
     src="images/otvbanner.png" 
     alt="Oceanus TV banner" 
-    style="width:50%; max-width:600px; display:inline-block;"
+    style="width:80%; max-width:700px; display:inline-block;"
   />
 </div>
 
@@ -16,6 +23,12 @@
    href="https://norhendra-isss608.shinyapps.io/oceanustv/"
    target="_blank" rel="noopener"> Shiny App </a>
 :::
+
+<div class="full-bleed">
+  ![](images/poster.jpeg)
+</div>
+
+
 
 # Our Team
 

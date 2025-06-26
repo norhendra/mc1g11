@@ -1,4 +1,4 @@
-/* ---------- Spotify-inspired palette ---------- */
+/*palette*/
 :root {
   --spotify-green: #1db954;
   --spotify-black: #121212;
@@ -6,7 +6,7 @@
   --text-light:    #ffffff;
 }
 
-/* Global ----------------------------------------------------- */
+/* Global */
 body {
   background-color: var(--spotify-black);
   color: var(--text-light);
@@ -16,7 +16,7 @@ body {
 a       { color: var(--spotify-green); }
 a:hover { color: #1ed760; }
 
-/* Navbar ----------------------------------------------------- */
+/* Navbar */
 .navbar,
 .navbar-dark,
 .navbar-brand,
@@ -29,7 +29,7 @@ a:hover { color: #1ed760; }
 }
 
 
-/* Hero section on home page ---------------------------------- */
+/* Hero section on home page  */
 .hero {
   background: var(--spotify-gray);
   border-radius: 10px;
@@ -78,7 +78,7 @@ table, th, td  { color: var(--text-light); }
   color:#fff;
 }
 
-/* ── Big, Bold Navbar Logo Override ───────────────────────────────── */
+/*  Big, Bold Navbar Logo Override */
 
 /* 1) Target any <img> inside a .navbar-brand link */
 .navbar-brand img,
@@ -104,4 +104,11 @@ nav.quarto-navbar .navbar-brand {
   max-height: none   !important;
   padding: 0         !important;
 }
+
+h1.title {
+  font-size: 0.01rem !important;
+  line-height: 0 !important;
+  margin: 0 !important;
+}
+
 

@@ -1,8 +1,11 @@
+title: "Oceanus TV"
 project:
   type: website
   output-dir: _site      
   preview:               
     port: 4200
+
+
 
 format:
   html:
@@ -10,12 +13,13 @@ format:
     css: styles.css
     include-in-header: "_includes/loader.html"   
     page-layout: full
-
+    title-block: false
+    
 website:
   navbar:
     title: ""
     logo: images/oceanustv.png
-    logo-alt: "Echoes of Oceanus"
+    logo-alt: "Oceanus TV"
     logo-href: "/"
     background: "#1DB954"       
     foreground: white
@@ -41,6 +45,8 @@ website:
         menu:
           - text: Meeting Minutes 1
             href: meetingminutes/meetingminutes1.html
+          - text: Meeting Minutes 2
+            href: meetingminutes/meetingminutes2.html          
 
   page-footer:
     center: |
