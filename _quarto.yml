@@ -1,38 +1,33 @@
-title: "Oceanus TV"
 project:
   type: website
-  output-dir: _site      
-  preview:               
-    port: 4200
-
-
+  output-dir: _site
 
 format:
   html:
-    theme: cosmo          
+    theme: cosmo
     css: styles.css
-    include-in-header: "_includes/loader.html"   
+    include-in-header: "_includes/loader.html"
     page-layout: full
     title-block: false
-    
+
 website:
   navbar:
     title: ""
     logo: images/oceanustv.png
     logo-alt: "Oceanus TV"
     logo-href: "/"
-    background: "#1DB954"       
+    background: "#1DB954"
     foreground: white
 
     right:
       - text: Home
-        href: index.qmd
+        href: /index.html
       - text: Shiny App
         href: https://norhendra-isss608.shinyapps.io/oceanustv/
       - text: User Guide
-        href: userguide/userguide.html
+        href: /userguide/userguide.html
       - text: Poster
-        href: poster/poster.html
+        href: /poster/poster.html
       - text: Proposal
         menu:
           - text: Hendra's
@@ -40,16 +35,16 @@ website:
           - text: Andre's
             href: https://isss608-ay2025-aprilterm.netlify.app/take-home_ex/take-home_ex03/take-home_ex03
           - text: Jin Yao's
-            href: https://isss608-blessmebellburve.netlify.app/take-home_ex/take-home_ex03/take-home_ex03        
+            href: https://isss608-blessmebellburve.netlify.app/take-home_ex/take-home_ex03/take-home_ex03
       - text: Meeting Minutes
         menu:
           - text: Meeting Minutes 1
-            href: meetingminutes/meetingminutes1.html
+            href: /meetingminutes/meetingminutes1.html
           - text: Meeting Minutes 2
-            href: meetingminutes/meetingminutes2.html     
+            href: /meetingminutes/meetingminutes2.html
           - text: Meeting Minutes 3
-            href: meetingminutes/meetingminutes3.html             
+            href: /meetingminutes/meetingminutes3.html
 
   page-footer:
     center: |
-      © {{ 2025 }} OceanusTV · A data visualisation project
+      © 2025 OceanusTV · A data visualisation project
