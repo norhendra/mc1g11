@@ -1,0 +1,62 @@
+---
+title: "Meeting Minutes 4"
+date: "28 June 2025"
+format: html
+editor: visual
+---
+
+# Group 11: Meeting Minutes 4
+
+Date: 28 June 2025
+
+Time: 1615hrs to 1645hrs
+
+In Attendance: Andre Ong, Ng Jin Yao, Nor Hendra Bin Abdul Rahman
+
+**Opening:**
+
+The meeting was called to order at 1615hrs by the group in SMU after Visual Analytics class
+
+# Agenda Item 1: Project Completion Status
+
+![](images/clipboard-3175768442.png)
+
+All members confirmed that functional requirements are met and deliverables are running smoothly in the Shiny app. Poster has also been uploaded to elearning Portal.
+
+## JIRA COMPLETION
+
+Hendra has marked the JIRA as completed and shared the sprint burndown chart with the team on how we managed to finish ahead of time.
+
+![](images/clipboard-297988622.png)
+
+![](images/clipboard-2653270956.png)
+
+### **Agenda Item 2: Remaining Tweaks (to be done after 2 July 2025)**
+
+The team agreed we still can make minor tweaks but will be focusing on our upcoming exams first. The team will be splitting it into below tasks.
+
+1.     **Add contextual descriptions**
+
+-   Insert a short explanatory blurb in the right-hand taskbar for every tab:
+
+    -   For each tab we’ll place a brief narrative panel in the right-hand taskbar. These blurbs will do more than label controls; they will set the scene, guiding users through the data like chapters in a story so they understand *why* each view matters and can immerse themselves in Sailor Shift’s journey and the wider Oceanus Folk universe.
+
+2.     **Graph-load optimisation**
+
+-    Refactor large visNetwork objects and cache static data to trim initial render time.
+
+3.     **User guide**
+
+-   Draft a concise walkthrough with annotated screenshots; export as PDF and embed link in the app header.
+
+### Follow-Up Tasks
+
+![](images/clipboard-1322794912.png)
+
+*All tweaks will commence **after 2 July 2025**, once the group has completed the exam.*
+
+------------------------------------------------------------------------
+
+### Adjournment
+
+The meeting adjourned at 1645hrs with congratulations to the team for reaching functional completion ahead of schedule.

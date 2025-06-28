@@ -49,11 +49,11 @@
     "text": "Agenda Item 3: Agile Practices and Project Timeline\nDuring the session we agreed on a streamlined workflow to keep our Shiny App development both transparent and resilient:\n\nCentralized Codebase: All code now lives in a single GitHub repository https://github.com/norhendra/mc1_backseatbois - so everyone works from the same source of truth.\nLightweight SOP\n\nWhenever anyone pushes new commits, they’ll send a quick notification in our chat so the rest of the team can pull the latest changes immediately.\nAndre recommended maintaining local backups of stable code branches, enabling us to roll back easily if something breaks.\nJin Yao stressed the importance of clear, descriptive commit messages that spell out exactly what was added, removed, or refactored.\n\nSprint-Based Task Management\n\nHendra proposed and we all agreed to treat our two-week window as a formal sprint in Jira. We’ve since:\n\nCreated a Jira board.\nGenerated tickets that align with our module selection and UI design.\nAssigned each of us to specific tasks.\nAdopted the “3 C’s” framework—Card, Conversation, Confirmation—to track every story from planning through completion.\n\nBy combining a centralized repo, a clear notification process, and a sprint mindset in Jira, we’ll ensure smooth collaboration, rapid iteration, and full visibility into our progress.Follow-up on Agenda Item 3: Sprint Setup on JIRA\nhttps://nhendra.atlassian.net/jira/software/projects/MC1BB/boards/2\n\n\nFor Create UI for Shiny App:\n\nFor Sailor Shift Module\n\nFor Oceanus Folk Moduke\n\nFor Other Artists Module"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Oceanus TV",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Discover the tides of Oceanus Folk\n\n\nInteractive visualizations, influence graphs,and curated playlists — all in one place.\n\n Shiny App \n\n\nOur Team\n\n\n\n  \n  \n    \n    \n      Andre Ong\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Nor Hendra\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Ng Jin Yao\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!"
   },
   {
     "objectID": "userguide/userguide.html",
@@ -63,11 +63,25 @@
     "text": "Coming soon"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Oceanus TV",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Discover the tides of Oceanus Folk\n\n\nInteractive visualizations, influence graphs,and curated playlists — all in one place.\n\n Shiny App \n\n\nOur Team\n\n\n\n  \n  \n    \n    \n      Andre Ong\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Nor Hendra\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Ng Jin Yao\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes4.html",
+    "href": "meetingminutes/meetingminutes4.html",
+    "title": "Meeting Minutes 4",
+    "section": "",
+    "text": "Date: 28 June 2025\nTime: 1615hrs to 1645hrs\nIn Attendance: Andre Ong, Ng Jin Yao, Nor Hendra Bin Abdul Rahman\nOpening:\nThe meeting was called to order at 1615hrs by the group in SMU after Visual Analytics class"
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes4.html#jira-completion",
+    "href": "meetingminutes/meetingminutes4.html#jira-completion",
+    "title": "Meeting Minutes 4",
+    "section": "JIRA COMPLETION",
+    "text": "JIRA COMPLETION\nHendra has marked the JIRA as completed and shared the sprint burndown chart with the team on how we managed to finish ahead of time.\n\n\n\nAgenda Item 2: Remaining Tweaks (to be done after 2 July 2025)\nThe team agreed we still can make minor tweaks but will be focusing on our upcoming exams first. The team will be splitting it into below tasks.\n1.     Add contextual descriptions\n\nInsert a short explanatory blurb in the right-hand taskbar for every tab:\n\nFor each tab we’ll place a brief narrative panel in the right-hand taskbar. These blurbs will do more than label controls; they will set the scene, guiding users through the data like chapters in a story so they understand why each view matters and can immerse themselves in Sailor Shift’s journey and the wider Oceanus Folk universe.\n\n\n2.     Graph-load optimisation\n\nRefactor large visNetwork objects and cache static data to trim initial render time.\n\n3.     User guide\n\nDraft a concise walkthrough with annotated screenshots; export as PDF and embed link in the app header.\n\n\n\nFollow-Up Tasks\n\nAll tweaks will commence after 2 July 2025, once the group has completed the exam.\n\n\n\nAdjournment\nThe meeting adjourned at 1645hrs with congratulations to the team for reaching functional completion ahead of schedule."
   },
   {
     "objectID": "meetingminutes/meetingminutes2.html",
