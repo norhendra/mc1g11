@@ -1,6 +1,6 @@
 ---
-title: "poster"
+title: "Oceanus TV Poster"
 format: html
 ---
 
-Coming soon
+![](../images/Group11_poster.png){width="100%"}

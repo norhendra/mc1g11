@@ -24,12 +24,6 @@ format:
    target="_blank" rel="noopener"> Shiny App </a>
 :::
 
-<div class="full-bleed">
-  ![](images/poster.jpeg)
-</div>
-
-
-
 # Our Team
 
 ```{=html}
@@ -49,7 +43,7 @@ format:
     <img src="images/team/andreong.jpeg" style="width:100%;height:auto" alt="Andre Ong">
     <div style="padding:1rem">
       <h5 style="margin:0 0 .5rem;font-weight:700">Andre Ong</h5>
-      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Andre …</p>
+      <p style="font-size:.9rem;margin:0 0 1rem">Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake </p>
       <a href="https://www.linkedin.com/in/andre-ong-5903b5215/"
          target="_blank" rel="noopener" class="btn-spotify">
         Let’s Connect!
@@ -62,7 +56,7 @@ format:
     <img src="images/team/norhendra.jpeg" style="width:100%;height:auto" alt="Nor Hendra">
     <div style="padding:1rem">
       <h5 style="margin:0 0 .5rem;font-weight:700">Nor Hendra</h5>
-      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Nor …</p>
+      <p style="font-size:.9rem;margin:0 0 1rem">Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake </p>
       <a href="https://www.linkedin.com/in/norhendra/"
          target="_blank" rel="noopener" class="btn-spotify">
         Let’s Connect!
@@ -75,7 +69,7 @@ format:
     <img src="images/team/ngjinyao.jpeg" style="width:100%;height:auto" alt="Ng Jin Yao">
     <div style="padding:1rem">
       <h5 style="margin:0 0 .5rem;font-weight:700">Ng Jin Yao</h5>
-      <p style="font-size:.9rem;margin:0 0 1rem">Short bio for Jin Yao …</p>
+      <p style="font-size:.9rem;margin:0 0 1rem">Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake </p>
       <a href="https://www.linkedin.com/in/ngjinyao/"
          target="_blank" rel="noopener" class="btn-spotify">
         Let’s Connect!

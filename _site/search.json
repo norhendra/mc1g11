@@ -30,16 +30,16 @@
   {
     "objectID": "poster/poster.html",
     "href": "poster/poster.html",
-    "title": "poster",
+    "title": "Oceanus TV Poster",
     "section": "",
-    "text": "Coming soon"
+    "text": "Your browser doesn’t support embedded PDFs.\nDownload the poster."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Oceanus TV",
     "section": "",
-    "text": "Discover the tides of Oceanus Folk\n\n\nInteractive visualizations, influence graphs,and curated playlists — all in one place.\n\n Shiny App \n\n\n\n\n\nOur Team\n\n\n\n  \n  \n    \n    \n      Andre Ong\n      Short bio for Andre …\n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Nor Hendra\n      Short bio for Nor …\n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Ng Jin Yao\n      Short bio for Jin Yao …\n      \n        Let’s Connect!"
+    "text": "Discover the tides of Oceanus Folk\n\n\nInteractive visualizations, influence graphs,and curated playlists — all in one place.\n\n Shiny App \n\n\nOur Team\n\n\n\n  \n  \n    \n    \n      Andre Ong\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Nor Hendra\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!\n      \n    \n  \n\n  \n  \n    \n    \n      Ng Jin Yao\n      Singapore Management University, Masters of IT in Business (Data Science and Analytics) — January 2025 intake \n      \n        Let’s Connect!"
   },
   {
     "objectID": "userguide/userguide.html",
@@ -82,5 +82,26 @@
     "title": "Meeting Minutes 1",
     "section": "Agenda Item 3: Agile Practices and Project Timeline",
     "text": "Agenda Item 3: Agile Practices and Project Timeline\nDuring the session we agreed on a streamlined workflow to keep our Shiny App development both transparent and resilient:\n\nCentralized Codebase: All code now lives in a single GitHub repository https://github.com/norhendra/mc1_backseatbois - so everyone works from the same source of truth.\nLightweight SOP\n\nWhenever anyone pushes new commits, they’ll send a quick notification in our chat so the rest of the team can pull the latest changes immediately.\nAndre recommended maintaining local backups of stable code branches, enabling us to roll back easily if something breaks.\nJin Yao stressed the importance of clear, descriptive commit messages that spell out exactly what was added, removed, or refactored.\n\nSprint-Based Task Management\n\nHendra proposed and we all agreed to treat our two-week window as a formal sprint in Jira. We’ve since:\n\nCreated a Jira board.\nGenerated tickets that align with our module selection and UI design.\nAssigned each of us to specific tasks.\nAdopted the “3 C’s” framework—Card, Conversation, Confirmation—to track every story from planning through completion.\n\nBy combining a centralized repo, a clear notification process, and a sprint mindset in Jira, we’ll ensure smooth collaboration, rapid iteration, and full visibility into our progress.Follow-up on Agenda Item 3: Sprint Setup on JIRA\nhttps://nhendra.atlassian.net/jira/software/projects/MC1BB/boards/2\n\n\nFor Create UI for Shiny App:\n\nFor Sailor Shift Module\n\nFor Oceanus Folk Moduke\n\nFor Other Artists Module"
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes3.html",
+    "href": "meetingminutes/meetingminutes3.html",
+    "title": "Meeting Minutes 3",
+    "section": "",
+    "text": "Date: 26 June 2025\nTime: 2200hrs to 2230hrs\nIn Attendance: Andre Ong, Ng Jin Yao, Nor Hendra Bin Abdul Rahman\nOpening:\nThe meeting was called to order at 2200hrs by the group as an online discussion"
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes3.html#agenda-item-1-minor-updates",
+    "href": "meetingminutes/meetingminutes3.html#agenda-item-1-minor-updates",
+    "title": "Meeting Minutes 3",
+    "section": "Agenda Item 1: Minor Updates",
+    "text": "Agenda Item 1: Minor Updates\nAndre called upon for a quick online discussion. He showed us the finalized plots and the team has agreed on below modules.\nThe finalized modules are as follows:\n\nArtist Influence Explorer: An adjustable visNetwork with a central node to select between person or musical groups, and show its influence where it can be both ‘influenced by’ and ‘influenced from’\nOceanus Folk: A pair of visNetwork and plotly where we can select between ‘influenced by’ and ‘influenced from’ to explore how Oceanus Folk impacts other genres\nSolo Spotlight: Module to show top artist based on their song notability\nGroup Spotlight: Module to show top bands based on their song notability, and also show within a group how each person risen to popularity.\nUpcoming Acts: To show which artists are upcoming"
+  },
+  {
+    "objectID": "meetingminutes/meetingminutes3.html#follow-up",
+    "href": "meetingminutes/meetingminutes3.html#follow-up",
+    "title": "Meeting Minutes 3",
+    "section": "Follow-up:",
+    "text": "Follow-up:\nHendra to work on UI to showcase the new tabs, Jin Yao and Andre to integrate the plots into ShinyApp."
   }
 ]

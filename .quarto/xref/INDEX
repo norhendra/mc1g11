@@ -16,5 +16,8 @@
   },
   "userguide/userguide.qmd": {
     "userguide.html": "64263189"
+  },
+  "meetingminutes/meetingminutes3.qmd": {
+    "meetingminutes3.html": "e797089f"
   }
 }

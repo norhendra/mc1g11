@@ -46,7 +46,9 @@ website:
           - text: Meeting Minutes 1
             href: meetingminutes/meetingminutes1.html
           - text: Meeting Minutes 2
-            href: meetingminutes/meetingminutes2.html          
+            href: meetingminutes/meetingminutes2.html     
+          - text: Meeting Minutes 3
+            href: meetingminutes/meetingminutes3.html             
 
   page-footer:
     center: |
