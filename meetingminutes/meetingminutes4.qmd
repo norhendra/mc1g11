@@ -43,7 +43,7 @@ The team agreed we still can make minor tweaks but will be focusing on our upcom
 
 2.     **Graph-load optimisation**
 
--    Refactor large visNetwork objects and cache static data to trim initial render time.
+-   Refactor large visNetwork objects and cache static data to trim initial render time.
 
 3.     **User guide**
 

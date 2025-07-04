@@ -5,4 +5,3 @@ format: html
 
 ![](../images/Group11_poster.png){width="100%"}
 
-
